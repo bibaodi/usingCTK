@@ -25,8 +25,9 @@ project(Example1)
 find_package(CTK REQUIRED)
 include(${CTK_USE_FILE})
 
-find_package(Qt4 REQUIRED)
-include(${QT_USE_FILE})
+#find_package(Qt5 REQUIRED)
+find_package(Qt5 COMPONENTS Core Gui Xml OpenGL Quick Widgets REQUIRED)
+#include(${QT_USE_FILE})
 
 add_executable(example1 main.cpp)
 target_link_libraries(example1 CTKWidgets)

@@ -1,7 +1,13 @@
-Examples
+CTK(CommonToolkit)Examples
 ========
 
 Collection of independent CMake-based projects illustrating how to build and link against CTK.
+
+## update 
+eton@231026 
+build support on Qt5.15 ubuntu2304.
+
+add build.sh to build automate.
 
 Build Instructions
 ------------------
